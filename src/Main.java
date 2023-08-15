@@ -16,7 +16,7 @@ public class Main {
     }
 
     public static void task1() {
-        System.out.println("Задача 1");
+        System.out.println("Задача №1");
         //введите год;
         int year = 2021;
         leapYear(year);
@@ -36,9 +36,9 @@ public class Main {
     }
 
     public static void task2() {
-        System.out.println("Задача 2");
+        System.out.println("Задача №2");
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Если Ваша операционная система IOS введите 1, если Android - введите 0.");
+        System.out.println("Если Ваша операционная система IOS, то введите 1, если Android, то - введите 0.");
         int operationSystem = Integer.parseInt(scanner.next());
         System.out.println("Введите год выпуска устройства");
         int yearOfIssue = Integer.parseInt(scanner.next());
@@ -61,7 +61,7 @@ public class Main {
 
 
             public static void task3 () {
-                System.out.println("Задача 2");
+                System.out.println("Задача №2");
                 Scanner scanner=new Scanner(System.in);
                 System.out.println("Введите расстояние от офиса до адреса доставки");
                 int distanceOfDelivery= Integer.parseInt(scanner.next());
